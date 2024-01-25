@@ -1,0 +1,3 @@
+boot-java.validation.spel.on=false
+eclipse.preferences.version=1
+start.boot-ls.early=false

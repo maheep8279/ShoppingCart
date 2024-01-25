@@ -1,0 +1,15 @@
+package com.example.inventory.repository;
+
+import java.util.List;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.example.inventory.model.Traking;
+
+public interface TrakingRepository extends MongoRepository<Traking, Integer> {
+
+	public Traking findByBookId(int id);
+
+	public List<Traking> findBybooksAvaliability(int avaliability);
+
+}

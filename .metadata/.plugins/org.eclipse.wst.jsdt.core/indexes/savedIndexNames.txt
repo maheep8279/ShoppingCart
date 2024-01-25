@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\DSOMAROU\Desktop\caseStudy\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1108769335.index
+1889678184.index
+1424035074.index
+3543719074.index
+510880970.index
+205536966.index

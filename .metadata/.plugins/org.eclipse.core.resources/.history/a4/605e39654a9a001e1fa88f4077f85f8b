@@ -1,0 +1,6 @@
+server.port: 8080
+spring.thymeleaf.cache=false
+
+paypal.mode=sandbox
+paypal.client.id=AcwR26ErwWY6h1AAAnRK7mlomDcX6_ChKAdSqaUzTRKbXDN5ZLxTPtROrg2dtTLjSOUbF2u4TbFhfv-c
+paypal.client.secret=EBMrMm2WFBo8Z5TY7qvhGUzMU_XTIVQIJKFh89ug0h1ndQLquk7EcotTh8kIs4fk_A7HGUvl-Q6qfqlN

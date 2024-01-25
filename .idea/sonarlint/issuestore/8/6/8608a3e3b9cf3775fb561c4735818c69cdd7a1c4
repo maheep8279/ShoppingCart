@@ -1,0 +1,6 @@
+
+m
+java:S1104"RMake bookId a static final constant or non-public and provide accessors if needed.(ð°Øöüÿÿÿÿ
+x
+java:S1104"]Make booksAvaliability a static final constant or non-public and provide accessors if needed.(ôÎ“Üýÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì½³Ìýÿÿÿÿ

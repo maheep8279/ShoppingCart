@@ -1,0 +1,10 @@
+package com.example.inventory.model;
+
+public class Traking {
+	
+	public int avaliability;
+	
+	
+	
+
+}

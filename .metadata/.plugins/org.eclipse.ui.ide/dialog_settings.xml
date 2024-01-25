@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.springsource.ide.eclipse.commons.gettingstarted.wizard.boot.NewSpringBootWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.springsource.ide.eclipse.boot.wizards.category"/>
+		</list>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\DSOMAROU\Downloads\sample-razor-pay-spring-java-master\sample-razor-pay-spring-java-master"/>
+			<item value="C:\Users\DSOMAROU\Downloads\razorpay-java-1.4.4\razorpay-java-1.4.4"/>
+			<item value="C:\Users\DSOMAROU\Downloads\HMS_CaseStudy-backend-main\HMS_CaseStudy-backend-main\Payment-getway"/>
+			<item value="C:\Users\DSOMAROU\Downloads\Paytm-Payment-Spring-master\Paytm-Payment-Spring-master"/>
+			<item value="C:\Users\DSOMAROU\Downloads\spring-boot-paytm-payment-master\spring-boot-paytm-payment-master"/>
+			<item value="C:\Users\DSOMAROU\Downloads\Spring-Paytm-Payment-main\Spring-Paytm-Payment-main"/>
+			<item value="C:\Users\DSOMAROU\Downloads\spring-boot-paytm-integration-master\spring-boot-paytm-integration-master"/>
+			<item value="C:\Users\DSOMAROU\Downloads\paypal-springboot-master\paypal-springboot-master"/>
+			<item value="C:\Users\DSOMAROU\eclipse-workspace\User"/>
+			<item value="C:\Users\DSOMAROU\eclipse-workspace\Users"/>
+			<item value="C:\Users\DSOMAROU\Downloads\spring-boot-paypal-example-master\spring-boot-paypal-example-master"/>
+			<item value="C:\Users\DSOMAROU\Downloads\CaseStudy-master (1)\CaseStudy-master\Wallet-Mangemant"/>
+		</list>
+	</section>
+</section>

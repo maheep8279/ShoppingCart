@@ -1,0 +1,16 @@
+
+f
+java:S1104"PMake name a static final constant or non-public and provide accessors if needed.( þÍ¾
+k
+java:S1104"UMake orderDate a static final constant or non-public and provide accessors if needed.(Ä‡Å×
+q
+java:S1104"VMake totalPrice a static final constant or non-public and provide accessors if needed.(ù£¿¤ÿÿÿÿÿ
+l
+java:S1104"VMake bookStores a static final constant or non-public and provide accessors if needed.(¤¸€¤
+l
+java:S1104"WMake orderStatus a static final constant or non-public and provide accessors if needed.(­ë²;
+n
+java:S1104"XMake deliveryDate a static final constant or non-public and provide accessors if needed.(™áÚ™
+n
+java:S1104"SMake address a static final constant or non-public and provide accessors if needed.(×âÌÑøÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì½³Ìýÿÿÿÿ

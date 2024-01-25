@@ -1,0 +1,46 @@
+package com.example.inventory.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
+
+import com.example.inventory.model.BookStore;
+import com.example.inventory.model.Traking;
+import com.example.inventory.service.TrakingService;
+
+@RestController
+public class TrakingController {
+
+	@Autowired
+	TrakingService trakingService;
+	@Autowired
+	RestTemplate restTemplate;
+
+	@PostMapping("/postBooks/{id}/{AvaliableBooks}")
+
+	public Traking postBooks(@PathVariable("id") int bookId, @PathVariable("AvaliableBooks") int AvaliableBooks) {
+
+		Traking traking = new Traking();
+
+		BookStore bookStore = restTemplate.getForObject("http://localhost:8081/getBookById/" + bookId, BookStore.class);
+
+		if (bookStore.getBookId() == bookId) {
+
+			traking.setBookId(bookId);
+
+			traking.setBoooksAvaliability(AvaliableBooks);
+		}
+		
+		else {
+			throw new NullPointerException("given bookId is not matched with existing BookId's");
+		}
+		return trakingService.createBoooksAvaliability(traking);
+	}
+	
+	
+	
+	
+
+}

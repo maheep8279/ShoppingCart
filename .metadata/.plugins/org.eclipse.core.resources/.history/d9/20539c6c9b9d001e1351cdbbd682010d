@@ -1,0 +1,8 @@
+package com.example.security;
+
+public class AuthenticationRequest {
+
+	private String username;
+	private String Password;
+
+}

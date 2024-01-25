@@ -1,0 +1,21 @@
+package com.example.inventory.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.inventory.model.Traking;
+import com.example.inventory.repository.TrakingRepository;
+
+@Service
+public class TrakingService {
+
+	@Autowired
+	TrakingRepository trakingRepository;
+
+	public Traking createBoooksAvaliability(Traking traking) {
+
+		return trakingRepository.save(traking);
+
+	}
+
+}
